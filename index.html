@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de Keila Rocio Delgado Carrasco, Ingeniera de Sistemas Empresariales.">
+  <title>Keila Delgado | Ingeniera de Sistemas Empresariales</title>
+  <style>
+    :root { --blue:#2563eb; --ink:#20242c; --muted:#687080; --line:#e6e9ef; --soft:#f5f7fa; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:#fff; color:var(--ink); font:15px/1.65 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    a { color:var(--blue); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .wrap { width:min(1100px, calc(100% - 40px)); margin:54px auto; display:grid; grid-template-columns:280px minmax(0, 1fr); gap:48px; }
+    aside { position:sticky; top:32px; align-self:start; }
+    .avatar { width:64px; height:64px; display:grid; place-items:center; border-radius:50%; color:#fff; background:linear-gradient(135deg,#2563eb,#6d8df5); font-size:21px; font-weight:700; box-shadow:0 8px 22px #2563eb30; }
+    h1 { font-size:27px; line-height:1.2; margin:16px 0 5px; letter-spacing:-.7px; }
+    .role { color:var(--muted); margin:0 0 4px; }
+    .tagline { font-size:13px; font-weight:600; }
+    .contact { margin:22px 0; display:grid; gap:9px; font-size:13px; color:var(--muted); overflow-wrap:anywhere; }
+    nav { border-top:1px solid var(--line); padding-top:14px; display:grid; gap:4px; }
+    nav a { color:#596170; padding:6px 9px; border-left:2px solid transparent; font-size:13px; }
+    nav a:hover { color:var(--blue); border-left-color:var(--blue); text-decoration:none; }
+    .language { display:inline-flex; gap:8px; margin-top:18px; font-size:12px; color:var(--muted); }
+    main { min-width:0; }
+    section { padding:0 0 27px; margin-bottom:26px; border-bottom:1px solid var(--line); scroll-margin-top:25px; }
+    .eyebrow { color:#687080; font-size:11px; letter-spacing:1.2px; font-weight:700; text-transform:uppercase; display:flex; align-items:center; gap:10px; margin:0 0 17px; }
+    .eyebrow:before { content:""; width:13px; height:2px; background:var(--blue); }
+    h2 { font-size:19px; margin:0 0 9px; letter-spacing:-.3px; }
+    p { margin:0 0 10px; }
+    .muted { color:var(--muted); }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-top:18px; }
+    .card { background:var(--soft); border-radius:12px; padding:14px; }
+    .card strong { display:block; font-size:15px; }
+    .card span { color:var(--muted); font-size:12px; }
+    .item { position:relative; padding:0 0 22px 22px; border-left:1px solid #d9dee8; margin-left:5px; }
+    .item:last-child { padding-bottom:0; }
+    .item:before { content:""; position:absolute; width:10px; height:10px; border:2px solid var(--blue); background:#fff; border-radius:50%; left:-7px; top:5px; }
+    .item-head { display:flex; justify-content:space-between; gap:14px; align-items:baseline; }
+    .item h3 { font-size:15px; margin:0; }
+    .date { color:var(--muted); font-size:11px; white-space:nowrap; }
+    .org { color:var(--muted); font-size:13px; margin:2px 0 8px; }
+    ul { margin:8px 0 0; padding-left:18px; }
+    li { margin:5px 0; }
+    .chips { display:flex; flex-wrap:wrap; gap:8px; }
+    .chip { background:var(--soft); border:1px solid var(--line); border-radius:7px; padding:5px 10px; font-size:12px; }
+    .download { display:inline-block; margin-top:8px; background:var(--blue); color:white; border-radius:8px; padding:9px 14px; font-size:13px; font-weight:600; }
+    .download:hover { background:#1d4ed8; text-decoration:none; }
+    footer { color:#9299a5; font-size:11px; padding:0 0 30px; }
+    @media (max-width:760px) {
+      .wrap { display:block; margin:30px auto; }
+      aside { position:static; margin-bottom:38px; }
+      nav { display:flex; flex-wrap:wrap; }
+      .cards { grid-template-columns:1fr; }
+      .item-head { display:block; }
+      .date { display:block; margin-top:2px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <aside>
+      <div class="avatar">KD</div>
+      <h1>Keila Rocio<br>Delgado Carrasco</h1>
+      <p class="role">Ingeniera de Sistemas Empresariales</p>
+      <p class="tagline">Análisis funcional · Procesos · Transformación digital</p>
+      <div class="contact">
+        <span>⌖ Lima, Perú</span>
+        <a href="mailto:keiladelgadoc@gmail.com">✉ keiladelgadoc@gmail.com</a>
+        <a href="https://linkedin.com/in/keiladelgado" target="_blank" rel="noreferrer">▣ linkedin.com/in/keiladelgado</a>
+        <a href="https://github.com/KeilaDelgado" target="_blank" rel="noreferrer">⌘ github.com/KeilaDelgado</a>
+        <span>☎ 937 769 598</span>
+      </div>
+      <nav aria-label="Navegación">
+        <a href="#perfil">Perfil</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#habilidades">Habilidades técnicas</a>
+        <a href="#educacion">Educación</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="language">ES · PORTAFOLIO PROFESIONAL</div>
+    </aside>
+
+    <main>
+      <section id="perfil">
+        <p class="eyebrow">Perfil</p>
+        <p>Ingeniera de Sistemas Empresariales con experiencia en análisis y mejora de procesos, transformación digital y levantamiento de requerimientos. He participado en la implementación de soluciones que automatizaron procesos manuales, mejoraron la estabilidad operativa y facilitaron la gestión y generación de información.</p>
+        <p>Especializada en modelado BPMN, análisis de causa raíz y diseño de procesos TO-BE, con manejo de Bizagi y SQL.</p>
+        <div class="cards">
+          <div class="card"><strong>Mejora continua</strong><span>Análisis y optimización de procesos</span></div>
+          <div class="card"><strong>QA funcional</strong><span>Pruebas y criterios de aceptación</span></div>
+          <div class="card"><strong>Transformación digital</strong><span>Soluciones y automatización</span></div>
+        </div>
+      </section>
+
+      <section id="experiencia">
+        <p class="eyebrow">Experiencia</p>
+        <div class="item">
+          <div class="item-head"><h3>QA Funcional</h3><span class="date">Agosto 2024 – Actualidad</span></div>
+          <p class="org">Ministerio de Trabajo y Promoción del Empleo · Lima, Perú</p>
+          <ul>
+            <li>Lideré el levantamiento y modelado de procesos en Bizagi para los sistemas Expediente Aleatorio, REMYPE, Sistema EDO y flujos de gestión documental y expedientes.</li>
+            <li>Analicé procesos AS-IS de los sistemas CAS y Empleos Perú, identificando cuellos de botella y diseñando flujos optimizados TO-BE.</li>
+            <li>Estandaricé procedimientos, criterios de aceptación e instructivos de trabajo para alinear a las áreas usuarias y al equipo técnico.</li>
+            <li>Levanté requerimientos y los traduje en especificaciones funcionales e historias de usuario bajo Agile/Scrum.</li>
+            <li>Rediseñé y automaticé el flujo de gestión de bonificaciones en el sistema CAS, reduciendo los tiempos de intervención operativa en un 80%.</li>
+            <li>Gestioné casos de prueba con Jira y buenas prácticas basadas en ISTQB.</li>
+          </ul>
+        </div>
+        <div class="item">
+          <div class="item-head"><h3>Practicante preprofesional</h3><span class="date">Noviembre 2023 – Julio 2025</span></div>
+          <p class="org">Ministerio de Trabajo y Promoción del Empleo · Lima, Perú</p>
+          <ul>
+            <li>Gestioné y realicé seguimiento de incidencias mediante GLPI, coordinando con el equipo de desarrollo.</li>
+            <li>Colaboré en el análisis de causa raíz de incidentes y alternativas de solución.</li>
+            <li>Validé consultas y datos en bases de datos Oracle para pruebas funcionales.</li>
+          </ul>
+        </div>
+        <div class="item">
+          <div class="item-head"><h3>QA Funcional</h3><span class="date">Octubre 2022 – Noviembre 2023</span></div>
+          <p class="org">Inka Cash S.A.C. · Lima, Perú</p>
+          <ul>
+            <li>Realicé levantamiento de información con stakeholders del sector financiero y elaboré especificaciones funcionales.</li>
+            <li>Mapeé flujos de actividades y definí criterios de aceptación bajo Scrum.</li>
+            <li>Identifiqué oportunidades de optimización para minimizar errores operacionales y tiempos de respuesta.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="habilidades">
+        <p class="eyebrow">Habilidades técnicas</p>
+        <h2>Herramientas y conocimientos</h2>
+        <div class="chips">
+          <span class="chip">BPM / BPMN</span><span class="chip">AS-IS / TO-BE</span>
+          <span class="chip">Análisis funcional</span><span class="chip">Levantamiento de requerimientos</span>
+          <span class="chip">SQL</span><span class="chip">Oracle</span><span class="chip">Power BI</span>
+          <span class="chip">Excel</span><span class="chip">Bizagi</span><span class="chip">Power Automate</span>
+          <span class="chip">JMeter</span><span class="chip">Figma</span><span class="chip">Confluence</span>
+          <span class="chip">Jira</span><span class="chip">Scrum</span><span class="chip">ISTQB</span>
+        </div>
+        <p class="muted" style="margin-top:16px">Idiomas: Inglés A2.</p>
+      </section>
+
+      <section id="educacion">
+        <p class="eyebrow">Educación</p>
+        <div class="item">
+          <h3>Ingeniería de Sistemas Empresariales</h3>
+          <p class="org">Universidad Científica del Sur · 2019–2024</p>
+        </div>
+        <div class="item">
+          <h3>Aspire Leaders Program 2026</h3>
+          <p class="org">Aspire Institute · Founded at Harvard University</p>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <p class="eyebrow">Contacto</p>
+        <h2>Conectemos</h2>
+        <p class="muted">Estoy interesada en iniciativas de tecnología, análisis de procesos, calidad de software y transformación digital.</p>
+        <a class="download" href="CV-KEILA-DELGADO-CARRASCO.pdf" download>Descargar CV en PDF ↓</a>
+        <p class="muted" style="font-size:11px;margin-top:8px">Para habilitar la descarga, sube tu PDF al repositorio con el nombre CV-KEILA-DELGADO-CARRASCO.pdf.</p>
+      </section>
+      <footer>© <span id="year"></span> Keila Delgado · Portafolio profesional</footer>
+    </main>
+  </div>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
